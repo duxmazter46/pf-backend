@@ -1,0 +1,154 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-07-05T01:32:28.201Z",
+  "__export_source": "insomnia.desktop.app:v9.3.2",
+  "resources": [
+    {
+      "_id": "req_cee6cbe6bdf9412cbca097579e156623",
+      "parentId": "wrk_33d3c09317864ce7993959773e381f42",
+      "modified": 1720143128135,
+      "created": 1720143066950,
+      "url": "http://localhost:3000/todo",
+      "name": "Edit",
+      "description": "",
+      "method": "PATCH",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": \"54fb1c04-2346-42f7-a8b6-2650ceeb5e95\",\n\t\"todoText\": \"Update 2\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "insomnia/9.3.2" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1720143066950,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_33d3c09317864ce7993959773e381f42",
+      "parentId": null,
+      "modified": 1720142886448,
+      "created": 1720142886448,
+      "name": "My Collection",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_8b824778bf0f4e038c028916d28ff3a0",
+      "parentId": "wrk_33d3c09317864ce7993959773e381f42",
+      "modified": 1720143059437,
+      "created": 1720142974556,
+      "url": "http://localhost:3000/todo",
+      "name": "Delete",
+      "description": "",
+      "method": "DELETE",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": \"992910cd-8742-4721-8f5f-32b587abe8f0\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "insomnia/9.3.2" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1720142974556,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_8c5772515f7242169772073e3f7f9b57",
+      "parentId": "wrk_33d3c09317864ce7993959773e381f42",
+      "modified": 1720143015761,
+      "created": 1720142933882,
+      "url": "http://localhost:3000/todo",
+      "name": "Query",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [{ "name": "User-Agent", "value": "insomnia/9.3.2" }],
+      "authentication": {},
+      "metaSortKey": -1720142933882,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_7d385a65bd8f4ce78029d51512cba4a5",
+      "parentId": "wrk_33d3c09317864ce7993959773e381f42",
+      "modified": 1720143029445,
+      "created": 1720142917465,
+      "url": "http://localhost:3000/todo",
+      "name": "Create",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"todoText\": \"New Todo\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "insomnia/9.3.2" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1720142917466,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_51c7fcfaabb72203f2dd49344d25b00cf22ff961",
+      "parentId": "wrk_33d3c09317864ce7993959773e381f42",
+      "modified": 1720142886453,
+      "created": 1720142886453,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1720142886453,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_51c7fcfaabb72203f2dd49344d25b00cf22ff961",
+      "parentId": "wrk_33d3c09317864ce7993959773e381f42",
+      "modified": 1720142886458,
+      "created": 1720142886458,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
